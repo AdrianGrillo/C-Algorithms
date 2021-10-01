@@ -22,6 +22,12 @@ int main()
         cout << arr[i] << endl;
     }
 
+    // Print all elements with a for each loop. For every index x in the array, print it followed by a comma
+    for (int x : arr)
+    {
+        cout << x << ",";
+    }
+
     // Number of items in the vector
     cout << arr.size() << endl;
 
