@@ -14,6 +14,7 @@ vector<int> pairSum(vector<int> arr, int Sum)
         // x is the second value in the pair
         int x = Sum - arr[i];
 
+        // s.find() will return an iterator pointing to s.end() if the item isn't found in the set. So if s.find() != s.end() then the item must not be in our set and we can then add it and look at the next  index in the array.
         if (s.find(x) != s.end())
         {
             result.push_back(x);
