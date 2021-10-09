@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-int highest_moutain(vector<int> arr)
+int highest_mountain(vector<int> arr)
 {
     int n = arr.size();
     int largest = 0;
@@ -46,7 +46,7 @@ int main()
 {
     vector<int> arr = {5, 6, 1, 2, 3, 4, 5, 4, 3, 2, 0, 1, 2, 3, -2, 4};
 
-    cout << highest_moutain(arr) << endl;
+    cout << highest_mountain(arr) << endl;
 
     return 0;
 }

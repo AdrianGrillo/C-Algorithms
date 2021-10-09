@@ -29,7 +29,7 @@ vector<vector<int>> triplets(vector<int> arr, int Sum)
 
             if (current_sum == Sum)
             {
-                result.push_back({arr[i], arr[j], arr[j]});
+                result.push_back({arr[i], arr[j], arr[k]});
                 j++;
                 k--;
             }
