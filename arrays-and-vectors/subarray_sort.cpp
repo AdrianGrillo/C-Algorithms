@@ -99,7 +99,7 @@ int main()
 {
     vector<int> arr = {1, 2, 3, 4, 5, 8, 6, 7, 9, 10, 11};
     auto p = subarraySort(arr);
-    cout << p.first << "and " << p.second << endl;
+    cout << p.first << " and " << p.second << endl;
 
     return 0;
 }
