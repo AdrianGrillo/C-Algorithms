@@ -13,7 +13,7 @@ vector<int> subarraySort(vector<int> a)
     int i = 0;
     int j = n - 1;
 
-    // Iterate from left while indexe values are equal
+    // Iterate from left while index values are equal
     while (i < n and a[i] == b[i])
     {
         i++;
