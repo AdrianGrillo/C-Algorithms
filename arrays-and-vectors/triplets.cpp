@@ -87,6 +87,7 @@ vector<vector<int>> triplets(vector<int> arr, int Sum)
 
         while (j < k)
         {
+            // On each new iteration, update the current_sum with the value at arr[i] and the new values at j and k
             int current_sum = arr[i];
             current_sum += arr[j];
             current_sum += arr[k];
